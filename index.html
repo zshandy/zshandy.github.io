@@ -11,6 +11,9 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!-- Font Awesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
   </head>
@@ -32,7 +35,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">About</a></li>
             <li><a href="cv.html">CV</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -57,15 +59,66 @@
 
         <div class="col-md-5">
           <h3>About Me</h3>
-          <p>I am a PhD student at the Database System Lab in Simon Fraser University under the supervision of Professor <a href="https://www.cs.sfu.ca/~jnwang/">Jiannan Wang</a></p>
+          <p>I am a PhD student at the Database System Lab in Simon Fraser University under the supervision of Professor <a href="https://dbgroup.cs.tsinghua.edu.cn/jnwang/">Jiannan Wang</a> and Professor <a href="https://www.miaozhengjie.com/">Zhengjie Miao</a></p>
           <p>My research interest is Data Discovery and Data Provenance</p>
           <p>I received my Master degree from <a href="https://www.sfu.ca/">Simon Fraser University</a> in Feb 2020</p>
           <p>I received my Bachelor degree from <a href="https://illinois.edu/">University of Illinois-Urbana Champaign</a> in May 2016</p>
           <h3>Project</h3>
           <ul>
             <li><a href="https://github.com/sfu-db/dataprep"> DataPrep </a>- Data Integration Module</li>
+            <li><a href="https://github.com/sfu-db/lineagex"> LineageX </a>- Column Lineage Extraction for SQL</li>
           </ul>
-          <p><a href="mailto:andy_zhang@sfu.ca"> Email</a><a href="https://github.com/zshandy"> Github</a><a href="https://www.linkedin.com/in/shi-heng-zhang-35332322/"> Linkedin</a></p></p>
+          <p class="contact-email">Email: <a href="mailto:andy_zhang@sfu.ca">andy_zhang@sfu.ca</a></p>
+          <p class="contact-icons">
+            <a href="https://github.com/zshandy" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shi-heng-zhang-35332322/" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h3 class="page-header">Publications</h3>
+        </div>
+
+        <div class="col-lg-12">
+          <ul class="publications">
+            <li>
+              <div class="row">
+                <div class="col-sm-2">
+                  <span class="pub-badge">VLDB</span>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pub-title">The Case for Text-to-SQL Friendly Logical Database Design</div>
+                  <div><span class="pub-me">Shi Heng Zhang</span>, Zhengjie Miao, and Jiannan Wang</div>
+                  <div>Under revision at <em>VLDB 2027</em> &middot; <em>arXiv preprint</em>, 2026</div>
+                  <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2606.03145">arXiv</a>
+                    <a href="https://github.com/zshandy/Logical-Database-Design">Code</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-sm-2">
+                  <span class="pub-badge">ICDE</span>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pub-title">LineageX: A Column Lineage Extraction System for SQL</div>
+                  <div><span class="pub-me">Shi Heng Zhang</span>, Zhengjie Miao, and Jiannan Wang</div>
+                  <div><em>In IEEE International Conference on Data Engineering (Demonstration)</em>, 2025</div>
+                  <div class="pub-links">
+                    <a href="https://ieeexplore.ieee.org/document/11113038">IEEE</a>
+                    <a href="https://arxiv.org/abs/2505.23133">arXiv</a>
+                    <a href="https://github.com/sfu-db/lineagex">Code</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
 
       </div>
